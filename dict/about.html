@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind css  -->
+    <link rel="stylesheet" href="../style/output.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="../javaScript/file.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="w-full  p-2 md:p-5 ">       
+        <nav class="md:w-[70%]  h-auto flex justify-between  items-center md:mx-auto mx-3 mt-14 mb-12">
+            <div class="uppercase font-bold text-black text-2xl z-20">
+                gedung
+            </div>
+            <ul class="hidden md:flex ">
+                <li class="list-none mx-2"><a class="text-black font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-1 rounded " href="index.html">home</a></li>
+                <li class="list-none mx-2"><a class="text-black font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-1 rounded " href="about.html">about</a></li>
+                <li class="list-none mx-2"><a class="text-black font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-1 rounded " href="project.html">project</a></li>
+                <li class="list-none mx-2"><a class="text-black font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-1 rounded " href="blog.html">blog</a></li>
+                <li class="list-none mx-2"><a class="text-black font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-1 rounded " href="contact.html">contact</a></li>
+            </ul>
+            <ul id="ulnav" class="md:hidden absolute top-[-110%] left-0 right-0 bg-white bg-opacity-[0.9] w-full h-[400px] flex flex-col items-center justify-end  ">
+                <div class="w-full mb-3">
+                    <li class="list-none my-5 w-full text-center px-2"><a class="block text-xl text-black font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-0.5 rounded transition-all " href="index.html">home</a></li>
+                    <li class="list-none my-5 w-full text-center px-2"><a class="block text-xl text-black font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-0.5 rounded transition-all " href="about.html">about</a></li>
+                    <li class="list-none my-5 w-full text-center px-2"><a class="block text-xl text-black font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-0.5 rounded transition-all " href="project.html">project</a></li>
+                    <li class="list-none my-5 w-full text-center px-2"><a class="block text-xl text-black font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-0.5 rounded transition-all " href="blog.html">blog</a></li>
+                    <li class="list-none my-5 w-full text-center px-2"><a class="block text-xl text-black font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-0.5 rounded transition-all " href="contact.html">contact</a></li>
+                </div>
+            </ul>
+            <div class="block md:hidden z-20">
+                <ion-icon id="menu" class=" block text-black text-4xl cursor-pointer hover:scale-110" name="menu"></ion-icon>
+                <ion-icon id="close" class=" hidden text-black text-4xl cursor-pointer hover:scale-110" name="close"></ion-icon>
+            </div>
+        </nav>
+     </header>
+     <div class="md:w-[70%] w-[100%] mx-auto grid grid-rows-2  ">
+        <div class="row-span-1 flex md:flex-row flex-col w-full md:my-5 md:p-0 p-5  ">
+            <div class="md:w-[80%] h-full"><img class=" h-72" src="../media/2018/blog-2-570x214.jpg" alt=""></div>
+            <div class="md:w-[80%] p-5">
+                <h2 class="text-black  lg:text-3xl text-xl font-semibold ">Always Strive For Better Work. Never Stop Learning.</h2>
+                <div class="h-1 bg-yellow-400 rounded w-20 md:my-5"></div>
+                <p class="text-start leading-tight">Duis vel erat quis justo vehicula vulputate sit amet nec nisi. Fusce a venenatis arcu, vel varius mi. Donec elit lacus, fringilla placerat aliquet sed, eleifend ac tortor. Morbi lectus mi, imperdiet a metus vel, consectetur blandit est</p>
+            </div>
+        </div>
+        <div class="row-span-1 flex md:flex-row flex-col-reverse w-full md:my-5 my-3 md:p-0 p-5 ">
+            <div class="md:w-[80%] p-5">
+                <h2 class="text-black  lg:text-3xl text-xl font-semibold ">We Love Great Building And Awesome Interior.</h2>
+                <div class="h-1 bg-yellow-400 rounded w-20 md:my-5"></div>
+                <p class="text-start leading-tight">Duis vel erat quis justo vehicula vulputate sit amet nec nisi. Fusce a venenatis arcu, vel varius mi. Donec elit lacus, fringilla placerat aliquet sed, eleifend ac tortor. Morbi lectus mi, imperdiet a metus vel, consectetur blandit est</p>
+            </div>
+            <div class="md:w-[80%] h-full"><img class=" h-72"  src="../media/2018/blog-1-570x214.jpg" alt=""></div>
+        </div>
+
+    </div> 
+    <div class="md:p-10 bg-[#262626] py-5 ">
+        <div class="lg:w-[80%] mx-auto lg:flex ">
+            <div class="mx-3 lg:w-[35%] md:my-3 ">
+
+                <div class="py-5 border-b-2 border-slate-700 roudned">
+                    <h3 class="uppercase text-white text-lg font-semibold border-l-4 border-yellow-500 pl-3">about us</h3>
+                </div>
+                <p class="text-justify text-1xl my-5 text-slate-50">Proin in orci quis elit blandit imperdiet ut eu enim. Nulla mattis arcu eget nisi eleifend, non pellentesque augue mollis. Mirum est notare quam littera gothica, quam nunc putamus</p>
+                <p class="text-justify text-1xl my-5 text-slate-50">gravida nibh vel velit auctor aliqunean sollicitudinlorem quis bibendum auci.</p>
+                <p class="capitalize my-1 text-slate-50">phone: <span class="text-yellow-500">+0923 323233</span></p>
+                <p class="capitalize my-1 text-slate-50">email: <span class="text-yellow-500">hamzaali@gmail.com</span></p>
+            </div>
+            <div class="mx-3 lg:w-[35%] md:my-3 ">
+
+                <div class="py-5 border-b-2 border-slate-700 roudned">
+                    <h3 class="uppercase text-white text-lg font-semibold border-l-4 border-yellow-500 pl-3">latest news</h3>
+                </div>
+                <p class="uppercase font-semibold my-3 text-white">PHASELLUS MOLESTIE FEUGIAT HENDRERIT INTERDUM</p>
+                <span class="my-3 text-slate-500">March 6, 2018</span>
+                <p class="uppercase font-semibold my-3 text-white">LOBORTIS ID BIBENDUM ET RHONCUS PORTTITOR TORTOR</p>
+                <span class="my-3 text-slate-500">March 6, 2018</span>
+                <p class="uppercase font-semibold my-3 text-white">MAECENAS ULTRICES JUSTO METUS QUIS FACILISIS</p>
+                <span class="my-3 text-slate-500">March 6, 2018</span>
+
+            </div>
+            <div class="mx-3 lg:w-[35%] md:my-3 ">
+
+                <div class="py-5 border-b-2 border-slate-700 roudned ">
+                    <h3 class="uppercase text-white text-lg font-semibold border-l-4 border-yellow-500 pl-3">latest work</h3>
+                </div>
+                <div class="flex flex-wrap gap-4 my-3">
+                    <img class="object-contain w-24" src="../media/2018/image-port-1-150x150.jpg" alt="">
+                    <img class="object-contain w-24" src="../media/2018/image-port-2-150x150.jpg" alt="">
+                    <img class="object-contain w-24" src="../media/2018/image-port-3-150x150.jpg" alt="">
+                    <img class="object-contain w-24" src="../media/2018/image-port-5-150x150.jpg" alt="">
+                    <img class="object-contain w-24" src="../media/2018/image-port-7-150x150.jpg" alt="">
+                    <img class="object-contain w-24" src="../media/2018/image-port-6-150x150.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" py-5 md:p-16 bg-[#2f2d2d]">
+        <div class="flex flex-col-reverse md:flex-row items-center justify md:justify-between lg:w-[80%] mx-auto">
+            <div class=" my-3">
+                <p class="text-white">© Copyright 2018, Built by Themes Awesome</p>
+            </div>
+            <div class="uppercase font-semibold text-white text-2xl my-3">
+                gedung
+            </div>
+            <div class="flex items-center md:justify-center my-3">
+                <ion-icon class="mx-2 text-2xl text-white" name="logo-twitter"></ion-icon>
+                <ion-icon class="mx-2 text-2xl text-white" name="logo-facebook"></ion-icon>
+                <ion-icon class="mx-2 text-2xl text-white" name="logo-linkedin"></ion-icon>
+                <ion-icon class="mx-2 text-2xl text-white" name="logo-googleplus"></ion-icon>
+                <ion-icon class="mx-2 text-2xl text-white" name="logo-youtube"></ion-icon>
+            </div>
+        </div>
+    </div>
+ </body>
+ </html>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind css  -->
+    <link rel="stylesheet" href="../style/output.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="../javaScript/file.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+   <header class="header-img w-full h-[730px] md:h-[750px] p-2 md:p-5 ">
+        <nav class="md:w-[70%]  h-auto flex justify-between  items-center md:mx-auto mx-3 mt-14 mb-32">
+            <div class="uppercase font-semibold text-white text-2xl z-20">
+                gedung
+            </div>
+            <ul class="hidden md:flex ">
+                <li class="list-none mx-2"><a class="text-slate-100 font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-1 rounded " href="index.html">home</a></li>
+                <li class="list-none mx-2"><a class="text-slate-100 font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-1 rounded " href="about.html">about</a></li>
+                <li class="list-none mx-2"><a class="text-slate-100 font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-1 rounded " href="project.html">project</a></li>
+                <li class="list-none mx-2"><a class="text-slate-100 font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-1 rounded " href="blog.html">blog</a></li>
+                <li class="list-none mx-2"><a class="text-slate-100 font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-1 rounded " href="contact.html">contact</a></li>
+            </ul>
+            <ul id="ulnav" class="md:hidden absolute top-[-110%] left-0 right-0 bg-black bg-opacity-[0.9] w-full h-[400px] flex flex-col items-center justify-end  ">
+                <div class="w-full mb-3">
+                    <li class="list-none my-5 w-full text-center px-2"><a class="block text-xl text-slate-100 font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-0.5 rounded transition-all " href="index.html">home</a></li>
+                    <li class="list-none my-5 w-full text-center px-2"><a class="block text-xl text-slate-100 font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-0.5 rounded transition-all " href="about.html">about</a></li>
+                    <li class="list-none my-5 w-full text-center px-2"><a class="block text-xl text-slate-100 font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-0.5 rounded transition-all " href="project.html">project</a></li>
+                    <li class="list-none my-5 w-full text-center px-2"><a class="block text-xl text-slate-100 font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-0.5 rounded transition-all " href="blog.html">blog</a></li>
+                    <li class="list-none my-5 w-full text-center px-2"><a class="block text-xl text-slate-100 font-semibold capitalize hover:text-slate-300 relative after:content-[' '] after:block after:absolute after:bottom-[-10px] after:left-0 after:w-0 after:h-0 after:bg-yellow-400 after:hover:w-[100%] after:hover:h-0.5 rounded transition-all " href="contact.html">contact</a></li>
+                </div>
+            </ul>
+            <div class="block md:hidden z-20">
+                <ion-icon id="menu" class=" block text-slate-300 text-4xl cursor-pointer hover:scale-110" name="menu"></ion-icon>
+                <ion-icon id="close" class=" hidden text-slate-300 text-4xl cursor-pointer hover:scale-110" name="close"></ion-icon>
+            </div>
+        </nav>
+        <div class="md:w-[70%] h-auto mx-auto flex flex-col items-center justify-center">
+            <p class="tracking-[10px] text-slate-300 font-semibold">SUPERIOR QUALITY</p>
+            <h1 class="my-8 text-3xl md:text-6xl font-semibold text-center text-white">FROM CONCEPT TO CREATION</h1>
+            <p class="text-slate-100 text-center text-sm w-[70%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit odio ante, id dapibus elit condimentum vitae.</p>
+            <a class="text-white px-3 py-1 my-3 rounded border border-white" href="">view project</a>
+
+        </div>
+    </header>
+    <div class=" bg-[#262626]">
+        <div id="three-card" class="w-full flex flex-col md:flex-row mx-auto lg:p-16 p-5 py-16">
+            <div class="md:flex md:text-start text-center  ">
+                <div>
+                    <img class="h-14 w-20 md:h-15 md:w-48 mx-auto " src="../media/2020/icon-1-1.png" alt="">
+                </div>
+                <div class="md:px-6">
+                    <h3 class="font-semibold text-white text-xl md:mb-4">Sustainable System</h3>
+                    <p class="text-[#aaaaaa] my-4 ">Lorem ipsum gravida nibh vel velit auctor aliqunean sollicitudinlor quisbibendum auci elit consequat ipsutis sem nibh  id elitsed vulputate.</p>
+                </div>
+
+            </div>
+            <div class="md:flex md:text-start text-center ">
+                <div>
+                    <img class="h-14 w-20 md:h-15 md:w-48 mx-auto " src="../media/2020/icon-2-1.png" alt="">
+                </div>
+                <div class="md:px-6">
+                    <h3 class="font-semibold text-white text-2xl md:mb-4">Sustainable System</h3>
+                    <p class="text-[#aaaaaa] my-4 ">Lorem ipsum gravida nibh vel velit auctor aliqunean sollicitudinlor quisbibendum auci elit consequat ipsutis sem nibh id elitsed vulputate.</p>
+                </div>
+
+            </div>
+            <div class="md:flex md:text-start text-center ">
+                <div>
+                    <img class="h-14 w-20 md:h-15 md:w-48 mx-auto " src="../media/2020/icon-3-1.png" alt="">
+                </div>
+                <div class="md:px-6">
+                    <h3 class="font-semibold text-white text-2xl md:mb-4">Sustainable System</h3>
+                    <p class="text-[#aaaaaa] my-4 ">Lorem ipsum gravida nibh vel velit auctor aliqunean sollicitudinlor quisbibendum auci elit consequat ipsutis sem nibh id elitsed vulputate.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="lg:w-[80%] mx-auto lg:py-24 ">
+        <div class="md:flex my-10 mx-auto ">
+            <div class="mx-3">
+                <img class="h-48 w-full object-cover md:h-full md:w-full" src="../media/2020/intro-contractor-1.png" alt="">
+            </div>
+            <div class="mx-3 p-6">
+                <span class="uppercase tracking-wider text-xl">since 1993</span>
+                <h2 class="text-balck text-3xl md:text-4xl lg:text-5xl lg:leading-tight capitalize font-semibold my-4">Our goal then and now is to provide quality on time projects.</h2>
+                <div class="bg-yellow-500 h-1 w-20 rounded my-4"></div>
+                <p class="text-gray-500 text-justify">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
+            </div>
+        </div>
+    </div>
+    <div id="viewall" class="bg-[#262626] py-5 md:p-16 ">
+        <div class="lg:w-[80%] mx-auto ">
+            <div class="grid grid-cols-2 gap-4 px-5">
+                <!-- Replace col-2 with col-span-1 for each column -->
+                <div class="col-span-1">
+                    <h2 class="lg:text-4xl md:text-3xl text-2xl text-white capitalize font-semibold ">latest project</h2>
+                    <div class="bg-yellow-500 h-[3px] rounded w-20 my-3"></div>
+                    <p class="text-gray-400 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit odio ante, id dapibus elit condimentum vitae. Maecenas eget orci vitae enim accumsan mollis</p>
+                </div>
+                <div class="col-span-1 flex justify-end items-center">
+                    <a class="uppercase py-2 px-3  border-white border-2 text-white font-semibold  " href="#viewall">view all project</a>
+                </div>
+              </div>
+              <div class=" px-5 lg:my-10 ">
+                <div class=" hidden md:flex flex-wrap  my-3 ">
+                    <a href="#" class="capitalize p-2  border-yellow-300 border-2 text-slate-50 mx-1  " >All</a>
+                    <a href="#" class="capitalize p-2  border-yellow-300 border-2 text-slate-50 mx-1  " >building</a>
+                    <a href="#" class="capitalize p-2  border-yellow-300 border-2 text-slate-50 mx-1  " >commercial</a>
+                    <a href="#" class="capitalize p-2  border-yellow-300 border-2 text-slate-50 mx-1  " >interior Design</a>
+                    <a href="#" class="capitalize p-2  border-yellow-300 border-2 text-slate-50 mx-1  " >Residential</a>
+                </div>
+                <div class="block md:hidden">
+                        <a class="text-slate-300 text-5xl" href="#all">&#8801;</a>
+                        <div id="#all" class="col-span-1 row-col-1 hidden md:flex flex-wrap  ">
+                            <a href="#" class="capitalize p-2  border-yellow-300 border-2 text-slate-50 mx-1  " >All</a>
+                            <a href="#" class="capitalize p-2  border-yellow-300 border-2 text-slate-50 mx-1  " >building</a>
+                            <a href="#" class="capitalize p-2  border-yellow-300 border-2 text-slate-50 mx-1  " >commercial</a>
+                            <a href="#" class="capitalize p-2  border-yellow-300 border-2 text-slate-50 mx-1  " >interior Design</a>
+                            <a href="#" class="capitalize p-2  border-yellow-300 border-2 text-slate-50 mx-1  " >Residential</a>
+                        </div>
+                </div>
+                <div id="image-wrap" class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 md:grid-rows-2 sm:grid-rows-3 grid-rows-6">
+                    <div class="md:col-span-1 md:row-span-1 sm:col-span-1 sm:row-span-1 row-span-1 col-span-1 sm:w-[100%] mx-auto w-[80%]">
+                        <div class="item-wrap " style="background-image: url('../media/2018/image-port-1-150x150.jpg');"></div>
+                    </div>
+                    <div class="md:col-span-1 md:row-span-1 sm:col-span-1 sm:row-span-1 row-span-1 col-span-1 sm:w-[100%] mx-auto w-[80%]">
+                        <div class="item-wrap " style="background-image: url('../media/2018/image-port-2-150x150.jpg');"></div>
+                    </div>
+                    <div class="md:col-span-1 md:row-span-1 sm:col-span-1 sm:row-span-1 row-span-1 col-span-1 sm:w-[100%] mx-auto w-[80%]">
+                        <div class="item-wrap " style="background-image: url('../media/2018/image-port-3-150x150.jpg');"></div>
+                    </div>
+                    <div class="md:col-span-1 md:row-span-1 sm:col-span-1 sm:row-span-1 row-span-1 col-span-1 sm:w-[100%] mx-auto w-[80%]">
+                        <div class="item-wrap " style="background-image: url('../media/2018/image-port-5-150x150.jpg');"></div>
+                    </div>
+                    <div class="md:col-span-1 md:row-span-1 sm:col-span-1 sm:row-span-1 row-span-1 col-span-1 sm:w-[100%] mx-auto w-[80%]">
+                        <div class="item-wrap " style="background-image: url('../media/2018/image-port-6-150x150.jpg');"></div>
+                    </div>
+                    <div class="md:col-span-1 md:row-span-1 sm:col-span-1 sm:row-span-1 row-span-1 col-span-1 sm:w-[100%] mx-auto w-[80%]">
+                        <div class="item-wrap " style="background-image: url('../media/2018/image-port-7-150x150.jpg');"></div>
+                    </div>
+                </div>
+                
+        </div>
+        </div>
+    </div>
+    <div class="bg-yellow-400 py-5 md:p-10">
+        <div class="lg:w-[80%] lg:flex py-10 mx-auto">
+            <div class="md:border-r-2 md:border-white px-4 w-full ">
+                <p class="text-white text-justify line leading-tight text-xl">"Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas."</p>
+                <div class="sm:flex items-center justify-center my-4">
+                    <img class="border-4 border-white rounded-full w-20" src="../media/2020/h1-testimonials-1-100x100-1-100x100.png" alt="">
+                    <div class="mx-2 ">
+                        <h3 class="font-semibold text-white text-xl">Richard Grant</h3>
+                        <cite class="text-gray-50 capitalize text-lg">engineer</cite>
+                    </div>
+                </div>
+            </div>
+            <div id="logowrap" class="w-full px-4 flex flex-wrap justify-around items-center">
+                <div class="lg:m-4 md:m-3 sm:m-2 my-3 mx-1">
+                    <a><img class="" src="../media/2018/partner-01light-143x35.png" alt=""></a>
+                </div>
+                <div class="lg:m-4 md:m-3 sm:m-2 my-3 mx-1">
+                    <a><img class="" src="../media/2018/partner-02light-143x35.png" alt=""></a>
+                </div>
+                <div class="lg:m-4 md:m-3 sm:m-2 my-3 mx-1">
+                    <a><img class="" src="../media/2018/partner-03light-143x35.png" alt=""></a>
+                </div>
+                <div class="lg:m-4 md:m-3 sm:m-2 my-3 mx-1">
+                    <a><img class="" src="../media/2018/partner-05light-143x35.png" alt=""></a>
+                </div>
+                <div class="lg:m-4 md:m-3 sm:m-2 my-3 mx-1">
+                    <a><img class="" src="../media/2018/partner-07light-143x35.png" alt=""></a>
+                </div>
+                <div class="lg:m-4 md:m-3 sm:m-2 my-3 mx-1">
+                    <a><img class="" src="../media/2018/partner-10light-143x35.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="latestProject" class=" py-5 md:p-16 ">
+        <div class="lg:w-[80%] mx-auto ">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 px-5 my-10">
+                <!-- Replace col-2 with col-span-1 for each column -->
+                <div class="col-span-1">
+                    <h2 class="lg:text-4xl md:text-3xl text-2xl text-slate-950 capitalize font-semibold ">latest project</h2>
+                    <div class="bg-yellow-500 h-[3px] rounded w-20 my-3"></div>
+                    <p class="text-gray-400 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit odio ante, id dapibus elit condimentum vitae. Maecenas eget orci vitae enim accumsan mollis</p>
+                </div>
+                <div class="col-span-1 flex lg:justify-end items-center">
+                    <a class="uppercase py-2 px-3  border-slate-950 border-2 text-slate-950 font-semibold  " href="#latestProject">view all project</a>
+                </div>
+            </div>
+            <div id="cardUpdate" class=" px-5 lg:my-10 grid lg:grid-rows-2 lg:grid-cols-2 grid-rows-4 grid-cols-1 ">
+             <div class="col-span-1 row-span-1 m-2 pb-5 border-b-2 border-slate-850 border-opacity-5">
+                <div class="flex">
+                    <div class="border-r-2 border-r-yellow-300 flex flex-col pr-3">
+                        <span class="text-slate-900">06</span>
+                        <span class="uppercase text-slate-900">mar</span>
+                        <span class="text-slate-900">2018</span>
+                    </div>
+                    <div class="pl-3">
+                        <h3 class="text-3xl font-semibold leading-none mb-3 capitalize">Phasellus molestie feugiat hendrerit Interdum</h3>
+                        <span class="text-slate-900 uppercase" >by daniel zedda - tips</span>
+                    </div>
+                </div>
+                <div class="my-4 ">
+                    <img class="w-full " src="../media/2018/blog-1-570x214.jpg" alt="">
+                </div>
+                <div class="flex flex-col items-start">
+                    <p class="text-slate-900 text-justify mt-3 mb-2">Eget ullamcorper turpis. Donec condimentum pulvinar lorem, sit amet ultrices diam bibendum non. Suspendisse potenti. Integer dapibus ligula tortor. Nam metus diam, tempus non...</p>
+                    <a class="py-2 px-3  capitalize my-2 text-white bg-yellow-500" href="">read mores</a>
+                </div>
+             </div>
+             <div class="col-span-1 row-span-1 m-2 pb-5 border-b-2 border-slate-850 border-opacity-5">
+                <div class="flex">
+                    <div class="border-r-2 border-r-yellow-300 flex flex-col pr-3">
+                        <span class="text-slate-900">06</span>
+                        <span class="uppercase text-slate-900">mar</span>
+                        <span class="text-slate-900">2018</span>
+                    </div>
+                    <div class="pl-3">
+                        <h3 class="text-3xl font-semibold leading-none mb-3 capitalize">Phasellus molestie feugiat hendrerit Interdum</h3>
+                        <span class="text-slate-900 uppercase" >by daniel zedda - tips</span>
+                    </div>
+                </div>
+                <div class="my-4">
+                    <img class="w-full" src="../media/2018/blog-2-570x214.jpg" alt="">
+                </div>
+                <div class="flex flex-col items-start">
+                    <p class="text-slate-900 text-justify mt-3 mb-2">Eget ullamcorper turpis. Donec condimentum pulvinar lorem, sit amet ultrices diam bibendum non. Suspendisse potenti. Integer dapibus ligula tortor. Nam metus diam, tempus non...</p>
+                    <a class="py-2 px-3  capitalize my-2 text-white bg-yellow-500" href="">read mores</a>
+                </div>
+             </div>
+             <div class="col-span-1 row-span-1 m-2 pb-5 border-b-2 border-slate-850 border-opacity-5">
+                <div class="flex">
+                    <div class="border-r-2 border-r-yellow-300 flex flex-col pr-3">
+                        <span class="text-slate-900">06</span>
+                        <span class="uppercase text-slate-900">mar</span>
+                        <span class="text-slate-900">2018</span>
+                    </div>
+                    <div class="pl-3">
+                        <h3 class="text-3xl font-semibold leading-none mb-3 capitalize">Phasellus molestie feugiat hendrerit Interdum</h3>
+                        <span class="text-slate-900 uppercase" >by daniel zedda - tips</span>
+                    </div>
+                </div>
+                <div class="my-4">
+                    <img class="w-full" src="../media/2018/blog-3-570x214.jpg" alt="">
+                </div>
+                <div class="flex flex-col items-start">
+                    <p class="text-slate-900 text-justify mt-3 mb-2">Eget ullamcorper turpis. Donec condimentum pulvinar lorem, sit amet ultrices diam bibendum non. Suspendisse potenti. Integer dapibus ligula tortor. Nam metus diam, tempus non...</p>
+                    <a class="py-2 px-3  capitalize my-2 text-white bg-yellow-500" href="">read mores</a>
+                </div>
+             </div>
+             <div class="col-span-1 row-span-1 m-2 pb-5 border-b-2 border-slate-850 border-opacity-5">
+                <div class="flex">
+                    <div class="border-r-2 border-r-yellow-300 flex flex-col pr-3">
+                        <span class="text-slate-900">06</span>
+                        <span class="uppercase text-slate-900">mar</span>
+                        <span class="text-slate-900">2018</span>
+                    </div>
+                    <div class="pl-3">
+                        <h3 class="text-3xl font-semibold leading-none mb-3 capitalize">Phasellus molestie feugiat hendrerit Interdum</h3>
+                        <span class="text-slate-900 uppercase" >by daniel zedda - tips</span>
+                    </div>
+                </div>
+                <div class="my-4">
+                    <img class="w-full" src="../media/2018/blog-4-570x214.jpg" alt="">
+                </div>
+                <div class="flex flex-col items-start">
+                    <p class="text-slate-900 text-justify mt-3 mb-2">Eget ullamcorper turpis. Donec condimentum pulvinar lorem, sit amet ultrices diam bibendum non. Suspendisse potenti. Integer dapibus ligula tortor. Nam metus diam, tempus non...</p>
+                    <a class="py-2 px-3  capitalize my-2 text-white bg-yellow-500" href="">read mores</a>
+                </div>
+             </div>
+             
+            </div>
+        </div>
+    </div>
+    <div class="sm:p-16 p-3 bg-yellow-400 flex justify-center items-center ">
+        <div class=" md:flex  items-center lg:w-[80%] mx-auto">
+            <p class="text-white lg:text-4xl md:text-3xl text-2xl font-semibold md:mr-7 my-7">Do you looking for Architecture design expertise?</p>
+            <a class="text-center border-2 border-white py-1 px-2 uppercase text-white font-semibold md:ml-7" href="">get quotation</a>
+        </div>
+    </div>
+    <div class="md:p-10 bg-[#262626] py-5 ">
+        <div class="lg:w-[80%] mx-auto lg:flex ">
+            <div class="mx-3 lg:w-[35%] md:my-3 ">
+
+                <div class="py-5 border-b-2 border-slate-700 roudned">
+                    <h3 class="uppercase text-white text-lg font-semibold border-l-4 border-yellow-500 pl-3">about us</h3>
+                </div>
+                <p class="text-justify text-1xl my-5 text-slate-50">Proin in orci quis elit blandit imperdiet ut eu enim. Nulla mattis arcu eget nisi eleifend, non pellentesque augue mollis. Mirum est notare quam littera gothica, quam nunc putamus</p>
+                <p class="text-justify text-1xl my-5 text-slate-50">gravida nibh vel velit auctor aliqunean sollicitudinlorem quis bibendum auci.</p>
+                <p class="capitalize my-1 text-slate-50">phone: <span class="text-yellow-500">+0923 323233</span></p>
+                <p class="capitalize my-1 text-slate-50">email: <span class="text-yellow-500">side13@gmail.com</span></p>
+            </div>
+            <div class="mx-3 lg:w-[35%] md:my-3 ">
+
+                <div class="py-5 border-b-2 border-slate-700 roudned">
+                    <h3 class="uppercase text-white text-lg font-semibold border-l-4 border-yellow-500 pl-3">latest news</h3>
+                </div>
+                <p class="uppercase font-semibold my-3 text-white">PHASELLUS MOLESTIE FEUGIAT HENDRERIT INTERDUM</p>
+                <span class="my-3 text-slate-500">March 6, 2018</span>
+                <p class="uppercase font-semibold my-3 text-white">LOBORTIS ID BIBENDUM ET RHONCUS PORTTITOR TORTOR</p>
+                <span class="my-3 text-slate-500">March 6, 2018</span>
+                <p class="uppercase font-semibold my-3 text-white">MAECENAS ULTRICES JUSTO METUS QUIS FACILISIS</p>
+                <span class="my-3 text-slate-500">March 6, 2018</span>
+
+            </div>
+            <div class="mx-3 lg:w-[35%] md:my-3 ">
+
+                <div class="py-5 border-b-2 border-slate-700 roudned ">
+                    <h3 class="uppercase text-white text-lg font-semibold border-l-4 border-yellow-500 pl-3">latest work</h3>
+                </div>
+                <div class="flex flex-wrap gap-4 my-3">
+                    <img class="object-contain w-24" src="../media/2018/image-port-1-150x150.jpg" alt="">
+                    <img class="object-contain w-24" src="../media/2018/image-port-2-150x150.jpg" alt="">
+                    <img class="object-contain w-24" src="../media/2018/image-port-3-150x150.jpg" alt="">
+                    <img class="object-contain w-24" src="../media/2018/image-port-5-150x150.jpg" alt="">
+                    <img class="object-contain w-24" src="../media/2018/image-port-7-150x150.jpg" alt="">
+                    <img class="object-contain w-24" src="../media/2018/image-port-6-150x150.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" py-5 md:p-16 bg-[#2f2d2d]">
+        <div class="flex flex-col-reverse md:flex-row items-center justify md:justify-between lg:w-[80%] mx-auto">
+            <div class=" my-3">
+                <p class="text-white">© Copyright 2018, Built by Themes Awesome</p>
+            </div>
+            <div class="uppercase font-semibold text-white text-2xl my-3">
+                gedung
+            </div>
+            <div class="flex items-center md:justify-center my-3">
+                <ion-icon class="mx-2 text-2xl text-white" name="logo-twitter"></ion-icon>
+                <ion-icon class="mx-2 text-2xl text-white" name="logo-facebook"></ion-icon>
+                <ion-icon class="mx-2 text-2xl text-white" name="logo-linkedin"></ion-icon>
+                <ion-icon class="mx-2 text-2xl text-white" name="logo-googleplus"></ion-icon>
+                <ion-icon class="mx-2 text-2xl text-white" name="logo-youtube"></ion-icon>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
